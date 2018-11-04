@@ -8,7 +8,7 @@ import numpy as np
 # tileFactor - number of times in each dimension the file is to be tiled
 def tipsytile(filename, outputName, tileFactor):
     
-    tileFactor3 = tileFactor * tileFactor * tileFactor;
+    tileFactor3 = tileFactor * tileFactor * tileFactor
     
     # Load in the base data and populate the arrays
     h,g,d,s = rtipsy(filename)
