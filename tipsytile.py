@@ -21,6 +21,8 @@ def tipsytile(filename, outputName, tileFactor):
     for x in range(0, tileFactor):
         for y in range(0, tileFactor):
             for z in range(0, tileFactor):
+                if x == 0 && y == 0 && z == 0:
+                   continue
                 # Gas
                 newg['x'].append(g['x'] + x)
                 newg['y'].append(g['y'] + y)
